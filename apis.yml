@@ -1,0 +1,273 @@
+aid: unitree
+name: Unitree Robotics
+description: >-
+  Unitree Robotics is a Hangzhou, China-based high-performance robot
+  manufacturer founded in 2016 by Wang Xingxing. The company is a global
+  pioneer in the commercial quadruped (robot dog) market and has expanded
+  into bipedal humanoid robots. Its product line includes the Go1, Go2,
+  and Go2-W quadrupeds for consumers, education, and research; the
+  industrial-grade B1 and B2 quadrupeds for inspection, patrol, and
+  logistics; the H1 full-size humanoid; the G1 humanoid for research and
+  developer experimentation; the R1 humanoid; and the Z1 robotic arm.
+  Unitree also produces in-house components including the L1/L2 LiDAR,
+  hand-grade actuators, and dexterous hands (Dex1-1). Unitree's developer
+  surface is SDK-centric — there is no public REST or gRPC cloud API.
+  Robot control happens on-device over DDS (Data Distribution Service)
+  via the unitree_sdk2 (C++) and unitree_sdk2_python libraries, with
+  high-level message bindings published as unitree_ros and unitree_ros2.
+  The company maintains an active GitHub presence at
+  github.com/unitreerobotics with 46+ public repositories covering SDKs,
+  ROS packages, MuJoCo and Isaac Lab simulation environments,
+  reinforcement learning frameworks (unitree_rl_gym, unitree_rl_lab),
+  teleoperation tooling (xr_teleoperate, kinect_teleoperate, televuer),
+  imitation learning (unitree_lerobot), a vision-language-action model
+  (unifolm-vla), and a Unitree App Store template repo. Documentation
+  lives at support.unitree.com/home/en/developer. Unitree's revenue
+  model is direct robot hardware sales via shop.unitree.com and partner
+  distribution; there is no metered API service tier.
+tags:
+  - Robotics
+  - Quadruped Robots
+  - Humanoid Robots
+  - Robot Dog
+  - Embodied AI
+  - Reinforcement Learning
+  - ROS
+  - Teleoperation
+  - Simulation
+  - SDK
+  - DDS
+  - LiDAR
+  - Dexterous Manipulation
+  - Vision Language Action
+  - Hardware
+  - Industrial Inspection
+  - Education
+  - Research
+url: https://raw.githubusercontent.com/api-evangelist/unitree/refs/heads/main/apis.yml
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+type: Index
+position: Provider
+access: 3rd-Party
+kind: contract
+x-tier: 2
+x-tier-reason: >-
+  Tier 2 — SDK-only developer surface. Unitree publishes mature, BSD/MIT
+  licensed C++ and Python SDKs (unitree_sdk2, unitree_sdk2_python,
+  unitree_legged_sdk, z1_sdk, unilidar_sdk2), full ROS/ROS2 bindings,
+  simulation environments (MuJoCo, Isaac Lab, PyBullet), and RL/IL/VLA
+  reference stacks. There is no public REST, GraphQL, or gRPC cloud API —
+  developers communicate with robots locally over DDS. Documentation
+  portal exists at support.unitree.com/home/en/developer. Tier 3 would
+  require a hosted cloud API; Tier 1 would require an OpenAPI/AsyncAPI
+  spec, plans, rate limits, and FinOps surface, none of which apply here.
+apis: []
+common:
+  - type: Website
+    url: https://www.unitree.com
+  - type: Portal
+    url: https://www.unitree.com/en
+  - type: Documentation
+    url: https://support.unitree.com/home/en/developer
+    name: Unitree Developer Documentation
+  - type: Documentation
+    url: https://support.unitree.com/home/zh/developer
+    name: Unitree Developer Documentation (Chinese)
+  - type: Documentation
+    url: https://support.unitree.com/home/en
+    name: Unitree Support Center
+  - type: GitHubOrganization
+    url: https://github.com/unitreerobotics
+  - type: SDK
+    url: https://github.com/unitreerobotics/unitree_sdk2
+    name: Unitree SDK 2 (C++)
+  - type: SDK
+    url: https://github.com/unitreerobotics/unitree_sdk2_python
+    name: Unitree SDK 2 (Python)
+  - type: SDK
+    url: https://github.com/unitreerobotics/unitree_legged_sdk
+    name: Unitree Legged SDK
+  - type: SDK
+    url: https://github.com/unitreerobotics/unitree_actuator_sdk
+    name: Unitree Actuator SDK
+  - type: SDK
+    url: https://github.com/unitreerobotics/z1_sdk
+    name: Z1 Robotic Arm SDK
+  - type: SDK
+    url: https://github.com/unitreerobotics/unilidar_sdk2
+    name: Unitree L2 LiDAR SDK
+  - type: SDK
+    url: https://github.com/unitreerobotics/unilidar_sdk
+    name: Unitree L1 LiDAR SDK
+  - type: SDK
+    url: https://github.com/unitreerobotics/UnitreecameraSDK
+    name: Unitree Go1 Camera SDK
+  - type: SDK
+    url: https://github.com/unitreerobotics/aliengo_sdk
+    name: AlienGo SDK
+  - type: SDK
+    url: https://github.com/unitreerobotics/unitree_ros
+    name: unitree_ros — Unitree ROS messages and packages
+  - type: SDK
+    url: https://github.com/unitreerobotics/unitree_ros2
+    name: unitree_ros2 — Unitree ROS2 messages and packages
+  - type: SDK
+    url: https://github.com/unitreerobotics/unitree_ros_to_real
+    name: unitree_ros_to_real — bridge ROS to real robot
+  - type: SDK
+    url: https://github.com/unitreerobotics/unitree_ros2_to_real
+    name: unitree_ros2_to_real — bridge ROS2 to Go1
+  - type: SDK
+    url: https://github.com/unitreerobotics/unitree_dds_wrapper
+    name: Unitree DDS Wrapper
+  - type: SDK
+    url: https://github.com/unitreerobotics/z1_ros
+    name: Z1 ROS package
+  - type: Tool
+    url: https://github.com/unitreerobotics/unitree_mujoco
+    name: unitree_mujoco — MuJoCo simulation environment
+  - type: Tool
+    url: https://github.com/unitreerobotics/unitree_sim_isaaclab
+    name: unitree_sim_isaaclab — Isaac Lab simulation environment
+  - type: Tool
+    url: https://github.com/unitreerobotics/unitree_pybullet
+    name: unitree_pybullet — PyBullet simulation environment
+  - type: Tool
+    url: https://github.com/unitreerobotics/unitree_rl_gym
+    name: unitree_rl_gym — Reinforcement learning training environment
+  - type: Tool
+    url: https://github.com/unitreerobotics/unitree_rl_lab
+    name: unitree_rl_lab — RL implementation on Isaac Lab
+  - type: Tool
+    url: https://github.com/unitreerobotics/unitree_rl_mjlab
+    name: unitree_rl_mjlab — RL implementation on MuJoCo
+  - type: Tool
+    url: https://github.com/unitreerobotics/unitree_lerobot
+    name: unitree_lerobot — LeRobot imitation learning fork for G1 dual-arm
+  - type: Tool
+    url: https://github.com/unitreerobotics/unifolm-vla
+    name: UniFoLM-VLA — Vision-Language-Action model
+  - type: Tool
+    url: https://github.com/unitreerobotics/unifolm-world-model-action
+    name: UniFoLM World Model Action
+  - type: Tool
+    url: https://github.com/unitreerobotics/xr_teleoperate
+    name: XR Teleoperate — XR teleop for humanoids
+  - type: Tool
+    url: https://github.com/unitreerobotics/kinect_teleoperate
+    name: Kinect Teleoperate — Azure Kinect teleop for H1/G1
+  - type: Tool
+    url: https://github.com/unitreerobotics/televuer
+    name: Televuer — XR vision and hand/controller teleop interface
+  - type: Tool
+    url: https://github.com/unitreerobotics/teleimager
+    name: Teleimager — multi-camera image server (ZeroMQ/WebRTC)
+  - type: Tool
+    url: https://github.com/unitreerobotics/dex1_1_service
+    name: Dex1-1 Hand service (Serial2dds)
+  - type: Tool
+    url: https://github.com/unitreerobotics/dfx_inspire_service
+    name: RH56DFX Inspire Hand controller
+  - type: Tool
+    url: https://github.com/unitreerobotics/brainco_hand_service
+    name: Brainco Revo2 Hand service
+  - type: Tool
+    url: https://github.com/unitreerobotics/linker_hand_service
+    name: Linker Hand service
+  - type: Tool
+    url: https://github.com/unitreerobotics/unitree_guide
+    name: Unitree Guide — locomotion controller
+  - type: Tool
+    url: https://github.com/unitreerobotics/z1_controller
+    name: Z1 controller
+  - type: Tool
+    url: https://github.com/unitreerobotics/z1_joystick
+    name: Z1 joystick controller
+  - type: Tool
+    url: https://github.com/unitreerobotics/point_lio_unilidar
+    name: Point-LIO algorithm for Unitree LiDAR
+  - type: Tool
+    url: https://github.com/unitreerobotics/Qmini
+    name: Qmini robot platform
+  - type: Tool
+    url: https://github.com/unitreerobotics/logging-mp
+    name: logging-mp — multiprocessing logging utility
+  - type: Plugins
+    url: https://github.com/unitreerobotics/unitree-app-templates
+    name: Unitree App Store templates
+  - type: CodeExamples
+    url: https://github.com/unitreerobotics/unitree_model
+    name: Unitree robot models (URDF/meshes)
+  - type: CodeExamples
+    url: https://github.com/unitreerobotics/unitree_cad
+    name: Unitree CAD models
+  - type: Publications
+    url: https://github.com/unitreerobotics/Publications
+    name: Unitree research publications
+  - type: Product
+    url: https://www.unitree.com/go2
+    name: Unitree Go2 quadruped
+  - type: Product
+    url: https://www.unitree.com/h1
+    name: Unitree H1 humanoid
+  - type: Product
+    url: https://www.unitree.com/g1
+    name: Unitree G1 humanoid
+  - type: Product
+    url: https://www.unitree.com/b2
+    name: Unitree B2 industrial quadruped
+  - type: Product
+    url: https://www.unitree.com/z1
+    name: Unitree Z1 robotic arm
+  - type: Shop
+    url: https://shop.unitree.com
+    name: Unitree Online Shop
+  - type: Company
+    url: https://www.unitree.com/about
+  - type: Contact
+    url: https://www.unitree.com/contact
+  - type: News
+    url: https://www.unitree.com/news
+  - type: Twitter
+    url: https://twitter.com/UnitreeRobotics
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/unitree-robotics
+  - type: YouTube
+    url: https://www.youtube.com/@UnitreeRobotics
+  - type: Features
+    data:
+      - Go2 — fourth-generation consumer/research quadruped with 4D LiDAR and on-board AI
+      - Go2-W — wheeled-leg variant of Go2
+      - B2 — industrial-grade quadruped for inspection, patrol, and payload carry
+      - H1 — full-size bipedal humanoid robot
+      - G1 — research/developer humanoid with dexterous hands
+      - R1 — humanoid robot platform
+      - Z1 — six-DOF robotic arm
+      - L1/L2 LiDAR — Unitree-designed solid-state and rotating LiDAR sensors
+      - Dex1-1 — Unitree dexterous hand
+      - unitree_sdk2 — C++ SDK for current-generation robots over DDS
+      - unitree_sdk2_python — Python bindings for unitree_sdk2
+      - unitree_legged_sdk — legacy SDK for Go1/B1/AlienGo/A1 quadrupeds
+      - unitree_ros and unitree_ros2 — official ROS1/ROS2 message and launch packages
+      - unitree_mujoco — MuJoCo simulation environment
+      - unitree_sim_isaaclab — Isaac Lab simulation environment
+      - unitree_rl_gym, unitree_rl_lab, unitree_rl_mjlab — RL training stacks
+      - unitree_lerobot — LeRobot fork for G1 dual-arm imitation learning
+      - unifolm-vla — Vision-Language-Action model for Unitree robots
+      - xr_teleoperate, kinect_teleoperate, televuer — teleoperation pipelines
+      - Unitree App Store + unitree-app-templates for on-robot app distribution
+      - DDS-based on-device communication (no public cloud API)
+      - 46+ public repositories under github.com/unitreerobotics with active commits
+    sources:
+      - https://www.unitree.com
+      - https://github.com/unitreerobotics
+      - https://support.unitree.com/home/en/developer
+    updated: '2026-05-24'
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    X: apievangelist
+    url: https://apievangelist.com
