@@ -78,118 +78,118 @@ common:
     name: Unitree Support Center
   - type: GitHubOrganization
     url: https://github.com/unitreerobotics
-  - type: SDK
+  - type: SDKs
     url: https://github.com/unitreerobotics/unitree_sdk2
     name: Unitree SDK 2 (C++)
-  - type: SDK
+  - type: SDKs
     url: https://github.com/unitreerobotics/unitree_sdk2_python
     name: Unitree SDK 2 (Python)
-  - type: SDK
+  - type: SDKs
     url: https://github.com/unitreerobotics/unitree_legged_sdk
     name: Unitree Legged SDK
-  - type: SDK
+  - type: SDKs
     url: https://github.com/unitreerobotics/unitree_actuator_sdk
     name: Unitree Actuator SDK
-  - type: SDK
+  - type: SDKs
     url: https://github.com/unitreerobotics/z1_sdk
     name: Z1 Robotic Arm SDK
-  - type: SDK
+  - type: SDKs
     url: https://github.com/unitreerobotics/unilidar_sdk2
     name: Unitree L2 LiDAR SDK
-  - type: SDK
+  - type: SDKs
     url: https://github.com/unitreerobotics/unilidar_sdk
     name: Unitree L1 LiDAR SDK
-  - type: SDK
+  - type: SDKs
     url: https://github.com/unitreerobotics/UnitreecameraSDK
     name: Unitree Go1 Camera SDK
-  - type: SDK
+  - type: SDKs
     url: https://github.com/unitreerobotics/aliengo_sdk
     name: AlienGo SDK
-  - type: SDK
+  - type: SDKs
     url: https://github.com/unitreerobotics/unitree_ros
     name: unitree_ros — Unitree ROS messages and packages
-  - type: SDK
+  - type: SDKs
     url: https://github.com/unitreerobotics/unitree_ros2
     name: unitree_ros2 — Unitree ROS2 messages and packages
-  - type: SDK
+  - type: SDKs
     url: https://github.com/unitreerobotics/unitree_ros_to_real
     name: unitree_ros_to_real — bridge ROS to real robot
-  - type: SDK
+  - type: SDKs
     url: https://github.com/unitreerobotics/unitree_ros2_to_real
     name: unitree_ros2_to_real — bridge ROS2 to Go1
-  - type: SDK
+  - type: SDKs
     url: https://github.com/unitreerobotics/unitree_dds_wrapper
     name: Unitree DDS Wrapper
-  - type: SDK
+  - type: SDKs
     url: https://github.com/unitreerobotics/z1_ros
     name: Z1 ROS package
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/unitree_mujoco
     name: unitree_mujoco — MuJoCo simulation environment
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/unitree_sim_isaaclab
     name: unitree_sim_isaaclab — Isaac Lab simulation environment
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/unitree_pybullet
     name: unitree_pybullet — PyBullet simulation environment
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/unitree_rl_gym
     name: unitree_rl_gym — Reinforcement learning training environment
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/unitree_rl_lab
     name: unitree_rl_lab — RL implementation on Isaac Lab
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/unitree_rl_mjlab
     name: unitree_rl_mjlab — RL implementation on MuJoCo
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/unitree_lerobot
     name: unitree_lerobot — LeRobot imitation learning fork for G1 dual-arm
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/unifolm-vla
     name: UniFoLM-VLA — Vision-Language-Action model
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/unifolm-world-model-action
     name: UniFoLM World Model Action
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/xr_teleoperate
     name: XR Teleoperate — XR teleop for humanoids
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/kinect_teleoperate
     name: Kinect Teleoperate — Azure Kinect teleop for H1/G1
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/televuer
     name: Televuer — XR vision and hand/controller teleop interface
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/teleimager
     name: Teleimager — multi-camera image server (ZeroMQ/WebRTC)
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/dex1_1_service
     name: Dex1-1 Hand service (Serial2dds)
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/dfx_inspire_service
     name: RH56DFX Inspire Hand controller
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/brainco_hand_service
     name: Brainco Revo2 Hand service
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/linker_hand_service
     name: Linker Hand service
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/unitree_guide
     name: Unitree Guide — locomotion controller
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/z1_controller
     name: Z1 controller
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/z1_joystick
     name: Z1 joystick controller
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/point_lio_unilidar
     name: Point-LIO algorithm for Unitree LiDAR
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/Qmini
     name: Qmini robot platform
-  - type: Tool
+  - type: Tools
     url: https://github.com/unitreerobotics/logging-mp
     name: logging-mp — multiprocessing logging utility
   - type: Plugins
