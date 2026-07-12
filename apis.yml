@@ -63,6 +63,8 @@ x-tier-reason: >-
   spec, plans, rate limits, and FinOps surface, none of which apply here.
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/unitree-domain-security.yml
   - type: Website
     url: https://www.unitree.com
   - type: Portal
@@ -263,6 +265,8 @@ common:
       - https://github.com/unitreerobotics
       - https://support.unitree.com/home/en/developer
     updated: '2026-05-24'
+  - url: https://www.unitree.com/news
+    type: Blog
 created: '2026-05-24'
 modified: '2026-05-24'
 specificationVersion: '0.20'
